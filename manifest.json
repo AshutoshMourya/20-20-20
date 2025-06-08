@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "20-20-20 Blink Reminder",
+    "version": "1.0",
+    "description": "A Chrome extension that reminds you to blink every few seconds.",
+    "permissions": [
+      "alarms",
+      "notifications",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
