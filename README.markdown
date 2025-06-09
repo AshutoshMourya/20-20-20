@@ -63,6 +63,21 @@ Contributions are welcome! To contribute:
 5. Open a Pull Request.
 6. Aay suggestions or feedbacks are appreciated.
 
+## Additional Features and Improvements which are in work:
+1. Customizable Reminder Intervals.
+2. Add a mode specifically for the 20-20-20 rule, reminding users every 20 minutes to look 20 feet away for 20 seconds, with a notification that includes these instructions.
+    **Details**: 
+    - a. Add a toggle in the popup to switch between "Blink Mode" (current 10-second reminders) and "20-20-20 Mode".
+    - b. In 20-20-20 Mode, set the alarm to trigger every 20 minutes (periodInMinutes: 20) and update the notification message to: "Take a 20-second break! Look 20 feet away."
+    - c. Optionally, include a countdown timer in the notification or popup to guide the 20-second break.
+3. Pause/Resume Functionality : Allow users to temporarily pause reminders without stopping them permanently, useful for short breaks or focused tasks.
+4. Sound Notifications : Add an optional sound to play with each notification to make reminders more noticeable, especially if visual notifications are missed.
+5. Dark Mode Support : Add a dark mode option for the popup to reduce eye strain and match system preferences.
+6. Ability to customize the notification message.
+7. Add Animations.
+**Low Priority** : 
+8. Cross-Browser Compatibility : The extension is adapted for Chrome and Firefox, but some APIs may behave differently.  
+
 ## Acknowledgements
 - Inspired by the 20-20-20 rule for eye health.
 - Built using the Chrome Extensions API.
